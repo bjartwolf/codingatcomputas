@@ -4,4 +4,5 @@ http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.end('Hei \n');
     res.end('Thomas! \n');
+    res.end('Dette er Coding at Computas sin nettside! \n');
 }).listen(process.env.port);
